@@ -35,7 +35,7 @@ if(isset($_POST["btnOK"])){
     </tr>
     <tr>
       <td width="80" align="center" valign="baseline">帳號</td>
-      <td valign="baseline"><input type="text" name="txtUserName" id="txtUserName" /></td>
+      <td valign="baseline"><input type="text" name="txtUserName" id="txtUserName" placeholder="at least one capital letter" pattern="\w+[A-Z]+\w+"></td>
     </tr>
     <tr>
       <td width="80" align="center" valign="baseline">密碼</td>
